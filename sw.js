@@ -1,6 +1,6 @@
 // ArrozLab · service worker
 // Al publicar una versión nueva de index.html, cambia CACHE_NAME (por ejemplo, de -R1 a -R2) y VERSION en index.html.
-const CACHE_NAME = "arrozlab-2026.10.08-R1";
+const CACHE_NAME = "arrozlab-2026.10.08-R2";
 const CORE = ["./", "index.html", "manifest.json", "icon-192.png", "icon-512.png"];
 const CDN = [
   "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
